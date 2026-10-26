@@ -1,0 +1,24 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime logs and generated outputs
+answers.txt
+*.log
+
+# Git and editor files
+.git/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

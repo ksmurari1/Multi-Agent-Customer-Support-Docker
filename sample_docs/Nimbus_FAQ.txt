@@ -1,0 +1,10 @@
+Nimbus Cloud - Frequently Asked Questions
+
+Q: What are the support hours?
+A: Live chat support is available Monday to Friday, 9:00 to 18:00 IST. Email support at help@nimbus.example is answered within 1 business day.
+
+Q: How much storage does the Starter plan include?
+A: The Starter plan includes 100 GB of storage per user. The Business plan includes 1 TB per user.
+
+Q: Can I use a {custom} domain for my workspace?
+A: Custom domains are available on the Business plan only. Add a CNAME record pointing to workspaces.nimbus.example and verify it in Settings > Domains.

@@ -1,0 +1,15 @@
+services:
+  customer-support:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: multi-agent-customer-support:local
+    container_name: multi-agent-customer-support
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      # app.py writes logs to /app/answers.txt; persist that file on the host.
+      - ./data/answers.txt:/app/answers.txt
