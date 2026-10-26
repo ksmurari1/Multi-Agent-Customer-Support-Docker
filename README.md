@@ -2,7 +2,7 @@
 
 A Streamlit customer-support demo powered by CrewAI and **hybrid Retrieval-Augmented Generation (RAG)**. It searches uploaded documents first, falls back to web search only when retrieved evidence is insufficient, and records each interaction.
 
-![Architecture diagram](architecture.png)
+![Architecture diagram](docs/architecture.png)
 
 ## Highlights
 
